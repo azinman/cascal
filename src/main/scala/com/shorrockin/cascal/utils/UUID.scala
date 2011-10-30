@@ -11,7 +11,7 @@ import _root_.com.eaio.uuid.{UUID => EaioUUID}
  * @author Chris Shorrock
  */
 object UUID {
-  
+
   /**
    * returns a new uuid, can be used as a time uuid
    */

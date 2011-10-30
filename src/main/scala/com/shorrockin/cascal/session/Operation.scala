@@ -65,7 +65,7 @@ class Delete(val container:ColumnContainer[_, _], val predicate:Predicate) exten
 
     out.setDeletion(del)
   }
-  
+
   val family = container.family
   val key = container.key
   val keyspace = container.keyspace
