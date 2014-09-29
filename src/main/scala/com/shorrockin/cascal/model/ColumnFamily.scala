@@ -13,7 +13,7 @@ import org.apache.cassandra.thrift.ColumnParent
 trait ColumnFamily[+KeyType] extends StringValue {
   val keyspace:Keyspace
   lazy val columnParent = new ColumnParent().setColumn_family(value)
-  
+
   def \(value:String):KeyType
 
 }
